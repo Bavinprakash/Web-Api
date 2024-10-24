@@ -1,0 +1,7 @@
+<div *ngIf="product">
+    <img [src]="product.imageUrl" alt="{{ product.name }}" style="width:100%;">
+    <h1>{{ product.name }}</h1>
+    <p>{{ product.description }}</p>
+    <a routerLink="/">Back to products</a>
+  </div>
+  
